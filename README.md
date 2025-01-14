@@ -15,8 +15,10 @@ open `http://localhost:5173`
 # Preguntas
 
 # 1. Implementación de Peticiones con useEffect y useState (2 puntos)
+Ver su uso en `src/medical-team/index.jsx`
 
 # 2. Uso de Fetch API o Axios para el Consumo de la API (1.5 puntos)
+Ver `src/api/requests.js` para consumo de API simulada con un json file usando fetch. Elegí fetch por su simplicidad. Dada la complejidad del proyecto no se justifica usar una herramienta como axios. 
 
 # 3. Peticiones Basadas en Eventos del Usuario (1 punto)
 

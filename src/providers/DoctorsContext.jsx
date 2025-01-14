@@ -22,8 +22,19 @@ export function DoctorsProvider({ children }) {
     loadDoctors();
   }, [])
 
+  const loadMoreDoctors = async () => {
+    try {
+      const doctorsData = await get("/static/json/more-doctors.json");
+      setDoctors((oldDoctorsData) => ([...oldDoctorsData, ...doctorsData]));
+    } catch (error) {
+      console.error("Error fetching doctors:", error);
+    } finally {
+      setLoading(false)
+    }
+  }
+
   return (
-    <DoctorsContext.Provider value={{ doctors, loading }} >
+    <DoctorsContext.Provider value={{ doctors, loading, loadMoreDoctors }} >
       {children}
     </DoctorsContext.Provider>
   );
