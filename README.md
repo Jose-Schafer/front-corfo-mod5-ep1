@@ -24,6 +24,7 @@ Ver `src/api/requests.js` para consumo de API simulada con un json file usando f
 Ver botón en `src/views/medical-team/index.jsx`
 
 # 4. Manejo de Errores en Peticiones Asíncronas (1 punto)
+Se agrega simulación de error en `src/providers/DoctorsContext.jsx` y se maneja mostrando un mensaje al usuario.
 
 # 5. Optimización del Rendimiento al Omitir Efectos en useEffect (0.5 puntos)
 Ver useEffect en `src/providers/DoctorsContext.jsx`

@@ -29,6 +29,7 @@ export default function MedicalTeam() {
     }
   }, [doctors])
 
+
   if (loading) {
     return (<h1>Loading ...</h1>)
   }
