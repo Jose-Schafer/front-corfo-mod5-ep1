@@ -21,7 +21,9 @@ Ver su uso en `src/medical-team/index.jsx`
 Ver `src/api/requests.js` para consumo de API simulada con un json file usando fetch. Elegí fetch por su simplicidad. Dada la complejidad del proyecto no se justifica usar una herramienta como axios. 
 
 # 3. Peticiones Basadas en Eventos del Usuario (1 punto)
+Ver botón en `src/views/medical-team/index.jsx`
 
 # 4. Manejo de Errores en Peticiones Asíncronas (1 punto)
 
-# 5. Optimización del Rendimiento al Omitir Efectos en useEffect (0.5
+# 5. Optimización del Rendimiento al Omitir Efectos en useEffect (0.5 puntos)
+Ver useEffect en `src/providers/DoctorsContext.jsx`
